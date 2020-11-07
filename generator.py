@@ -32,7 +32,3 @@ for i in range(n_words):
 
 t = ' '.join(chain)
 print(t)
-
-f = open('What would trump say.txt', 'a')
-f.write(t + '\n')
-f.close()
